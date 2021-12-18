@@ -38,8 +38,8 @@ Read below for an explanation of how this folder would be run.
 Which operation is executed is decided by how many sub-directories are in each directory.
 |No. of sub-directories| Operation |
 |--|--|
-| 0 | Output data at current memory slot.|
-| 1 | Input data to current memory slot. |
+| 0 | Output ASCII character of the data at current memory slot.|
+| 1 | Input character which is converted to ASCII value and stored at current memory slot. |
 | 2 | Decrement pointer. |
 | 3 | Increment pointer. |
 | 4 | Decrement data at current memory slot. |
