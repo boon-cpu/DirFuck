@@ -14,6 +14,7 @@ no
 ### Folder Structure
  In the main directory of your program, there should be 1 directory for every operation.
  There should then be the correct number of sub-directories corresponding to which operation you want to execute.
+ 
  Note: The names of the folders do not matter, however they are executed in alphabetical order.
  
  ```
@@ -66,6 +67,6 @@ The first operation to be run would be `01`, in this case, it has 1 sub-director
 Next, `02` will be read, 5 sub-directories means that this would increment the data at the current memory slot.
 Finally, `03` gets run. This file has no sub-directories, referring to our table, we can see that this will output the data at the current memory slot.
 ## Issues
-If you do find any issues with DirFuck, feel free to create a new issue [here](https://github.com/boon-cpu/DirFuck/issues)
+If you do find any issues with DirFuck, feel free to create a new issue [here](https://github.com/boon-cpu/DirFuck/issues).
 Similarly, if you would like to suggest any code changes, open a pull request [here](https://github.com/boon-cpu/DirFuck/pulls)
 
